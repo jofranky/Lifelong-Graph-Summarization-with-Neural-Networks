@@ -1,0 +1,7 @@
+\begin{table}{ \small 
+\begin{tabular}{|c|c|c|c|c|c|} 
+ \hline ACC & BWT & FWT & $\Omega_{base}$ & $\Omega_{new}$ & $\Omega_{all}$ \\ 
+ \hline 0.348 & -0.098 & -0.042 & 0.850 & 0.429 & 0.690\\ 
+ \hline \end{tabular}} 
+ \caption{Measures of GraphSAINT (2-Hop and Edges)}\label{graphsaint2Eevaluation.}
+\end{table}

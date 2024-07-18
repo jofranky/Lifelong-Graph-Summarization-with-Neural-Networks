@@ -1,0 +1,7 @@
+\begin{table}{ \small 
+\begin{tabular}{|c|c|c|c|c|c|} 
+ \hline ACC & BWT & FWT & $\Omega_{base}$ & $\Omega_{new}$ & $\Omega_{all}$ \\ 
+ \hline 0.392 & -0.087 & -0.045 & 0.827 & 0.462 & 0.673\\ 
+ \hline \end{tabular}} 
+ \caption{Measures of MLP (2-Hop)}\label{mlp2evaluation.}
+\end{table}

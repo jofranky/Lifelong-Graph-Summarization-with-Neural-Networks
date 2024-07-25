@@ -11,10 +11,10 @@ The snapshots from the DyLDO dataset can be downloaded from http://km.aifb.kit.e
 
 A list of required packages to be imported is provided in the **requirements.txt** file.
 
-## Executing the code
+## Executing the Code
 All code used for the experiments is in the directory 'src'.
 
-# Preprocessing:
+# Preprocessing
 
 ## Filter
 Execute the code in  **src/filter** first to filter the downloaded snapshot. <br /> 
@@ -46,7 +46,7 @@ To eliminate duplicates run, e.g., in Ubuntu:
 awk ’!seen[$0]++’ data-filtered.nq > data-filtered-no-duplicates.nq
 ```
 
-## Creating the summaries
+## Creating the Summaries
 Then, run the code in **src/summary** to create the summaries and meta-information of the snapshots.<br />
 For creating the summaries of a snapshot run:
 ```console
@@ -95,7 +95,7 @@ maxDegree = [Maximum number of degrees a vertex can have to be sampled.]
 save_fileT = [The name of the file in which the information for training and testing is saved.]
 ```
 
-# Measuring:
+# Measuring
 ## Measures
 For the measures, first, execute the code in **src/measures**.  <br />
 For calculating the unary measures of a snapshot run:
@@ -176,7 +176,7 @@ name = [Name of the folder where the plots are saved.]
 ```
 
 
-## Validation:
+## Validation
 The code for the validation is in **src/gnn_validating**.<br />
 For validation:
 ```console
@@ -213,7 +213,7 @@ alpha = [Value for alpha (only for GraphMLP).]
 k_hop=1
 
 ```
-## Training:
+## Training
 The code for the training is in **src/gnn-training**.<br />
 For training:
 ```console
@@ -253,7 +253,7 @@ k_hop=1
 
 ```
 
-## Testing:
+## Testing
 The code for the testing is in **src/gnn-testing**.<br />
 For testing:
 ```console
@@ -292,7 +292,7 @@ k_hop=1
 
 ```
 
-## Evaluataion:
+## Evaluataion
 The code for the evaluation is in **src/evaluation**.<br />
 
 For creating the LaTex Tables  in **accuracy** and **measures**:

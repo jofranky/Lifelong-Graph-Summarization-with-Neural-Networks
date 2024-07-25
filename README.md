@@ -378,7 +378,7 @@ summary5 = 3
 model_name5 = graphsaint
 ```
 
-## Authors and acknowledgment
+## Authors and Acknowledgment
 We thank  Maximilian Blasi, Manuel Freudenreich, and Johannes Horvath for providing their code to us. 
 Their code is the foundation of our code, which we adapted and expanded for our project.
 
